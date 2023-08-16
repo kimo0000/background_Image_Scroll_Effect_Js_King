@@ -1,0 +1,41 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  height: 3500px;
+}
+
+/* .container {
+    
+} */
+
+.container .bg {
+  width: 100vw;
+  height: 100vh;
+  background: url(imgs/plage.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container .text {
+  padding: 50px 25px;
+}
+
+.text .liste {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
